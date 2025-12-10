@@ -10,11 +10,11 @@ class Discrakt < Formula
   on_macos do
     on_arm do
       url "https://github.com/afonsojramos/discrakt/releases/download/v#{version}/discrakt-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "PLACEHOLDER_ARM64_SHA256"
+      sha256 "88135d8163219d2fe274733aa46c5b8893d0fc1a8ad3293266bb7b4409d7ca18"
     end
     on_intel do
       url "https://github.com/afonsojramos/discrakt/releases/download/v#{version}/discrakt-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "PLACEHOLDER_X86_64_SHA256"
+      sha256 "4561dfdae3ccf292c3e267143eca41d7e1da5d5403216323364fcd19aba0e8be"
     end
   end
 
