@@ -4,17 +4,17 @@
 class Discrakt < Formula
   desc "Bridge Trakt.tv watching status to Discord Rich Presence"
   homepage "https://github.com/afonsojramos/discrakt"
-  version "3.4.4"
+  version "3.4.5"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/afonsojramos/discrakt/releases/download/v#{version}/discrakt-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "3478ce1741c20f097cc0eb1c110d0953da9be11c703648c9133cd89d52b2b304"
+      sha256 "2f0b2e50dd59de2bdc3a808c0b7224a53daa482921bb258b93c0796a5a38dfe3"
     end
     on_intel do
       url "https://github.com/afonsojramos/discrakt/releases/download/v#{version}/discrakt-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "d0dba6710aaba6b01acbb65e031311822523a6cb3852450466e5fb8a2a7857d7"
+      sha256 "4de24b2d4ed33b1db8ce89d3e05ca277c1f738eab2e52a7dc03082bc27a89d72"
     end
   end
 
